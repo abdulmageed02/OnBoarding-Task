@@ -1,4 +1,4 @@
-resource "google_compute_instance" "private-vm"{
+resource "google_compute_instance" "private-vm"{ 
   name         = var.vm_name
   machine_type = var.vm_machine_type
   zone         = "${var.region}-a"

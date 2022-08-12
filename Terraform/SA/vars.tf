@@ -1,4 +1,4 @@
-variable SA_ID {
+variable SA_ID { 
   type        = string
 }
 

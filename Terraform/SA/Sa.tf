@@ -1,4 +1,4 @@
-resource "google_service_account" "SA" {
+resource "google_service_account" "SA" { 
   account_id = var.SA_ID
   display_name = var.SA_ID
 }

@@ -9,5 +9,5 @@ output "SUBNET_ID" {
   value       = google_compute_subnetwork.my_subnet.id
 }
 output "SUBNET" {
-  value       = google_compute_subnetwork.my_subnet
+  value       = google_compute_subnetwork.my_subnet 
 }

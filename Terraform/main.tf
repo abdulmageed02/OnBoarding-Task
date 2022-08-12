@@ -9,7 +9,7 @@ module "Network" {
   region      = var.region
 }
 
-module "VM" {
+module "VM" { 
 
   source = "./VM"
 

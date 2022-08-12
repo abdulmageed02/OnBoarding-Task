@@ -1,4 +1,4 @@
-variable gke_name {
+variable gke_name { 
   type        = string
 }
 variable vpc {

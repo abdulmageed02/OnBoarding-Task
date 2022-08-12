@@ -1,4 +1,4 @@
-resource "google_container_cluster" "GKE" {
+resource "google_container_cluster" "GKE" { 
   name     = var.gke_name
   location = "${var.region}-c"
   remove_default_node_pool = true
