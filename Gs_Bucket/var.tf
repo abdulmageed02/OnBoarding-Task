@@ -14,3 +14,7 @@ variable region {
 variable SA {
   type        = string
 }
+variable SA_ROLE {
+  type        = string
+  default = "roles/storage.objectViewer"
+}

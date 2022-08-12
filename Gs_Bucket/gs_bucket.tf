@@ -7,6 +7,6 @@ resource "google_storage_bucket" "gs-bucket" {
 
 resource "google_storage_bucket_iam_member" "binding" {
   bucket = google_storage_bucket.gs-bucket.name
-  role = "roles/storage.admin"
+  role = var.SA_ROLE
   members = ["serviceAccount:${var.SA}"]
 }
